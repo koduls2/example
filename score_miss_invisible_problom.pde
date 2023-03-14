@@ -5,7 +5,6 @@ int misses = 0;
 int gameTime = 0;
 boolean gameOver = false;
 
-ArrayList notes = new ArrayList();
 
 circle[] circle1 = new circle[50];  // 50개의 원1
 circle[] circle2 = new circle[50];  // 50개의 원2
