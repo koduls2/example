@@ -222,7 +222,7 @@ class circle {
 
   void update() {
     // 화면 밖으로 원이 나가면 다시 랜덤한 위치로 보내기
-    if (y > height - radius/3) {
+    if (y > height - radius/5) {
       x = random(width);
       y = -radius;
       num+=1;
