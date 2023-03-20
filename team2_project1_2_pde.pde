@@ -32,7 +32,7 @@ circle circle_bomb = new circle(random(5, width-5), 0, speed_b, 6);
 
 
 void setup() {
-  size(1000, 700);
+  size(1500, 900);
   background(0, 0, 0);
 
   bgm= new SoundFile(this, "Fun Kid - Quincas Moreira.mp3");
